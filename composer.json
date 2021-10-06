@@ -1,0 +1,20 @@
+{
+    "require": {
+        "illuminate/database": "^8.61",
+        "altorouter/altorouter": "^2.0",
+        "guzzlehttp/guzzle": "^7.3",
+        "filp/whoops": "^2.14",
+        "vlucas/phpdotenv": "^5.3",
+        "phpmailer/phpmailer": "^6.5",
+        "robmorgan/phinx": "^0.12.8"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["app/Functions/Helpers.php"]
+    }
+}
